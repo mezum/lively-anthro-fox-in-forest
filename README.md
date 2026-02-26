@@ -19,4 +19,4 @@ MIT License. See [LICENSE File](LICENSE) for details.
 
 <!-- Links -->
 [Lively Wallpaper]: <https://github.com/rocksdanister/lively>
-[main.zip]: <https://github.com/mezum/lively-anthro-fox-in-forest/archive/refs/heads/main.zip>
+[main.zip]: <https://github.com/mezum/lively-anthro-fox-in-forest/releases/download/latest/anthro-fox-forest.zip>
