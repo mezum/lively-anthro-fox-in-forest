@@ -48,11 +48,6 @@ const MONTH_TO_SEASON = [
     SEASON_WINTER, // December
 ];
 
-let selectSeason = () => SEASON_SUMMER;
-let selectTime = () => TIME_DAY;
-let beginningOfDay = 6;
-let endOfDay = 18;
-let updateIntervalMillis = 60 * 1000;
 function livelyPropertyListener(key, value) {
     switch (key) {
         case PROP_SEASON:
@@ -170,5 +165,11 @@ function parseTime(value) {
 
     return time;
 }
+
+let selectSeason = generateSeasonSelector(SEASON_AUTO_NORTHERN);
+let selectTime = generateTimeSelector(TIME_SYSTEM);
+let beginningOfDay = 6;
+let endOfDay = 18;
+let updateIntervalMillis = 60 * 1000;
 
 reset();
